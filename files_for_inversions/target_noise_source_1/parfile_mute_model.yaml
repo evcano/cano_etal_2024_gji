@@ -1,0 +1,11 @@
+MESH_DIR: '../specfem2d_truncated_mesh/OUTPUT_FILES'
+MODEL_DIR: './truncated_mesh'
+OUTPUT_DIR: './truncated_mesh'
+
+MESH:
+    xmin: -850000.0
+    xmax: 850000.0
+    zmin: -850000.0
+    zmax: 850000.0
+
+PML_THICKNESS: 57954.5469

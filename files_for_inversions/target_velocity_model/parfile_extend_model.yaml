@@ -1,0 +1,11 @@
+DATA_DIR: '../specfem2d_complete_mesh/DATA'
+OUTPUT_DIR: './complete_mesh'
+MODEL_PARAMETERS: ['vs']
+
+R: 3329492.8249949999
+X0: 0.0
+Z0: 0.0
+
+CIRCLE: true
+
+PML_THICKNESS: 100000.0

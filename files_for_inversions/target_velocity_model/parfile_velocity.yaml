@@ -1,0 +1,14 @@
+DATA_DIR: '../specfem2d_complete_mesh/DATA'
+OUTPUT_DIR: './complete_mesh/original'
+MODEL_PARAMETERS: ['vs']
+
+PERTURBATIONS:
+  - type: 'gaussian'
+    shape: 'circle'
+    x0: 0.0
+    z0: 0.0
+    r: 3331.E+3
+    taper: null
+    taper_side: null
+    taper_width: null
+    gfield: './vel_interpolator.pkl'

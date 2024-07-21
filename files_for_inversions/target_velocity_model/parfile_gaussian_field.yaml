@@ -1,0 +1,18 @@
+NAME: 'random_perturbations'
+OUTPUT_DIR: '.'
+
+XMIN: -1500.E+3
+XMAX: 1500.E+3
+NX: 128
+
+ZMIN: -1500.E+3
+ZMAX: 1500.E+3
+NZ: 128
+
+MAXPER: null
+ONESIGN: null
+
+MEAN: 0.0
+STD: 0.05
+LEN_SCALE: 20.E+3
+SEED: null

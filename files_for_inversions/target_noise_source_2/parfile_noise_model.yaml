@@ -1,0 +1,22 @@
+MESH_DIR: '../specfem2d_complete_mesh/OUTPUT_FILES'
+OUTPUT_DIR: './complete_mesh'
+
+# WE SET NOISE SOURCE TO 0 ON ALL THE MESH
+# THEN WE DEFINE THE SOURCE ON THE NON-PML ELEMENTS
+
+DISTRIBUTIONS:
+  - type: 'uniform'
+    magnitude: 0.0
+    shape: 'circle'
+    x0: 0.0
+    z0: 0.0
+    r: 3331.E+3
+    taper: null
+  - type: 'gaussian'
+    gfield: './sans_interpolator.pkl'
+    magnitude: 0.0
+    shape: 'circle'
+    x0: 0.0
+    z0: 0.0
+    r: 3206000.0
+    taper: null

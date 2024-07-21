@@ -1,0 +1,13 @@
+DATA_DIR: './complete_mesh/smoothed'
+OUTPUT_DIR: './complete_mesh/perturbed'
+MODEL_PARAMETERS: ['vs']
+
+PERTURBATIONS:
+  - type: 'gaussian'
+    shape: 'circle'
+    x0: 0.0
+    z0: 0.0
+    r: 700.E+3
+    taper: True
+    taper_r: 100.E+3
+    gfield: './random_perturbations.pkl'

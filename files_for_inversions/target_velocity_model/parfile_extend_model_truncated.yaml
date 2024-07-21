@@ -1,0 +1,13 @@
+DATA_DIR: './truncated_mesh'
+OUTPUT_DIR: './truncated_mesh_mute'
+MODEL_PARAMETERS: ['vs']
+
+MESH:
+    xmin: -850000.0
+    xmax: 850000.0
+    zmin: -850000.0
+    zmax: 850000.0
+
+CIRCLE: false
+
+PML_THICKNESS: 57954.5469
